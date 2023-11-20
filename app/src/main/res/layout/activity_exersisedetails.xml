@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExersiseDetails"
+    android:background="@drawable/original3">
+
+    <TextView
+        android:id="@+id/DDname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="EUPHORIA"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:ignore="InvalidId,MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/ldpackagename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Exersises You Can Follow"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/DDname"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <EditText
+        android:id="@+id/edittextLDmultiline"
+        android:layout_width="363dp"
+        android:layout_height="476dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:text="Hi\nHello"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ldpackagename"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/buttoncartcheckout"
+        android:layout_width="227dp"
+        android:layout_height="49dp"
+        android:background="@drawable/btn_register"
+        android:text="BACK"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textViewLDtotalcost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:text="TextView"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

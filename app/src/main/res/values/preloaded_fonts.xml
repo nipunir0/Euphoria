@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/advent_pro_medium</item>
+        <item>@font/amatic_sc_bold</item>
+        <item>@font/amatica_sc_bold</item>
+        <item>@font/bad_script</item>
+        <item>@font/balsamiq_sans</item>
+        <item>@font/barrio</item>
+        <item>@font/bellota_text_bold_italic</item>
+        <item>@font/bonbon</item>
+        <item>@font/bubbler_one</item>
+        <item>@font/cambay</item>
+        <item>@font/combo</item>
+        <item>@font/creepster</item>
+        <item>@font/indie_flower</item>
+    </array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/happygirl"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="How to manage your stress"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="326dp">
+
+        <TextView
+            android:id="@+id/edittextLDmultiline"
+            android:layout_width="396dp"
+            android:layout_height="476dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="Managing stress effectively is essential for maintaining overall well-being and achieving a balanced and fulfilling life. Here's a paragraph outlining strategies to manage stress, divided into individual paragraphs\n\nFirstly, recognizing and acknowledging stress is the initial step in managing it. Identifying the causes and triggers of stress allows individuals to gain insight into the factors that contribute to their stress levels. This self-awareness forms the foundation for developing effective stress management techniques.\n\nSecondly, implementing relaxation techniques can help alleviate stress. Deep breathing exercises, progressive muscle relaxation, and meditation are all valuable tools in promoting relaxation and reducing the physical and emotional symptoms of stress. Taking regular breaks throughout the day to engage in these practices can provide much-needed moments of calm and rejuvenation.\n\nIn addition to relaxation techniques, time management plays a crucial role in stress management. Prioritizing tasks, setting realistic goals, and breaking projects into manageable steps can help individuals feel more in control of their time and reduce the feeling of being overwhelmed. Establishing a routine and creating a schedule that allows for adequate rest and recreation is essential for maintaining a healthy work-life balance."
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonarticleback"
+        android:layout_width="199dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/third_btn"
+        android:text="BACK"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</LinearLayout>

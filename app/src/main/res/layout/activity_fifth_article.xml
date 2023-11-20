@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/happy"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Become Stress-Free"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="326dp">
+
+        <TextView
+            android:id="@+id/edittextLDmultiline"
+            android:layout_width="396dp"
+            android:layout_height="476dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="Living a stress-free life is a desirable goal that many aspire to achieve. Here's an article divided into paragraphs outlining steps to become stress-free./n/nSelf-care forms the foundation for stress reduction. Taking care of oneself mentally, emotionally, and physically is crucial. Engaging in activities that bring joy and relaxation, such as practicing mindfulness, exercising regularly, getting sufficient sleep, and maintaining a balanced diet, can nourish the body and mind, allowing for better stress management.\n\nPractice Mindfulness and Meditation.Mindfulness and meditation are powerful tools for reducing stress and enhancing well-being. Mindfulness involves being fully present in the moment, observing thoughts and feelings without judgment. Meditation helps quiet the mind and promotes relaxation. Incorporating mindfulness and meditation practices into daily life can foster a greater sense of calm and reduce the impact of stressors.\n\nTime Management and Prioritization Poor time management often contributes to stress.\n\nLearning to prioritize tasks, set realistic goals, and delegate responsibilities can help manage time more effectively. Breaking down complex projects into manageable steps and establishing a structured routine can create a sense of control and alleviate the pressure of feeling overwhelmed.\n\nEstablish Boundaries
+Setting boundaries is essential for managing stress. Learning to say when necessary, setting limits on work or social commitments, and creating a healthy work-life balance can prevent burnout and allow for personal time and relaxation. Respecting one's boundaries cultivates a sense of self-worth and reduces stress-inducing situations."
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonarticleback"
+        android:layout_width="199dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/final_btn"
+        android:text="BACK"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</LinearLayout>

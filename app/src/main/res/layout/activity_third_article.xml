@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/boyinstress"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Worried about anxiety?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="326dp">
+
+        <TextView
+            android:id="@+id/edittextLDmultiline"
+            android:layout_width="396dp"
+            android:layout_height="476dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="Reducing anxiety is crucial for improving mental well-being and achieving a greater sense of calm and tranquility. Here's a report-like paragraph outlining strategies to effectively reduce anxiety\n\nUnderstanding and managing anxiety is essential for promoting overall mental health. Firstly, practicing relaxation techniques can significantly reduce anxiety levels. Techniques such as deep breathing exercises, progressive muscle relaxation, and guided imagery can help activate the body's relaxation response, calming the mind and reducing anxiety symptoms. Incorporating these techniques into a daily routine can provide a valuable tool for managing anxiety.\n\nIn addition to relaxation techniques, maintaining a healthy lifestyle plays a crucial role in anxiety reduction. Regular physical exercise has been shown to have a positive impact on anxiety levels. Engaging in activities like walking, jogging, swimming, or yoga can help release tension, boost mood, and promote a sense of well-being. Additionally, adopting a balanced diet that includes nutrient-rich foods can support overall brain health and help regulate mood.
+\n\nCognitive strategies are also effective in reducing anxiety. Challenging and replacing negative thought patterns with more positive and realistic ones can help alleviate anxiety symptoms. Practicing self-compassion, reframing negative situations, and focusing on gratitude and positive aspects of life can shift the mindset and reduce anxiety's grip on daily life. Seeking professional help, such as cognitive-behavioral therapy (CBT), can provide valuable tools and techniques for managing anxiety effectively.
+"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonarticleback"
+        android:layout_width="199dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_articletwo"
+        android:text="BACK"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rainrain"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".RainActivity">
+
+        <TextView
+            android:id="@+id/titleHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="RAIN DROPS"
+            android:textColor="#9C047309"
+            android:textSize="55sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_rain"
+            android:onClick="play"
+            android:text="play"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_rain"
+            android:onClick="pause"
+            android:text="pause"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_rain"
+            android:onClick="stop"
+            android:text="stop"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/musicbackbtn"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_rain"
+            android:text="BACK"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
